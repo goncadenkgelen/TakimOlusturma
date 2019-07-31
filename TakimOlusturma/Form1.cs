@@ -27,30 +27,46 @@ namespace TakimOlusturma
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            do
+            listBox2.Items.Clear();
+            listBox3.Items.Clear();
+
+            if (listBox1.Items.Count % 2 == 0)
             {
-                string isim = listBox1.Items[rnd.Next(0, listBox1.Items.Count)].ToString();
-
-                if (!(listBox2.Items.Contains(isim)))
+                do
                 {
-                    listBox2.Items.Add(isim);
-                }
-            }
-            while (listBox2.Items.Count < listBox1.Items.Count / 2);
+                    string isim = listBox1.Items[rnd.Next(0, listBox1.Items.Count)].ToString();
 
-            do
-            {
-                string isim = listBox1.Items[rnd.Next(0, listBox1.Items.Count)].ToString();
-
-                if ((!(listBox2.Items.Contains(isim)) && (!(listBox3.Items.Contains(isim)))))
-                {
+                    if (!(listBox2.Items.Contains(isim)))
                     {
-                        listBox3.Items.Add(isim);
+                        listBox2.Items.Add(isim);
                     }
                 }
-            }
+                while (listBox2.Items.Count < listBox1.Items.Count / 2);
 
-            while (listBox3.Items.Count < listBox1.Items.Count / 2);
+                do
+                {
+                    string isim = listBox1.Items[rnd.Next(0, listBox1.Items.Count)].ToString();
+
+                    if ((!(listBox2.Items.Contains(isim)) && (!(listBox3.Items.Contains(isim)))))
+                    {
+                        {
+                            listBox3.Items.Add(isim);
+                        }
+                    }
+                }
+
+                while (listBox3.Items.Count < listBox1.Items.Count / 2);
+            }
+            else
+            {
+                MessageBox.Show("Bir kişi daha ekleyin ya da bir kişi silin.");
+            }
+        }
+
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Remove(listBox1.SelectedItem);
         }
     }
 }
