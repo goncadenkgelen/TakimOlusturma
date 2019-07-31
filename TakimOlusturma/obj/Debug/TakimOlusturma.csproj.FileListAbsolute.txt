@@ -1,0 +1,10 @@
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\bin\Debug\TakimOlusturma.exe.config
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\bin\Debug\TakimOlusturma.exe
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\bin\Debug\TakimOlusturma.pdb
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\obj\Debug\TakimOlusturma.csprojAssemblyReference.cache
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\obj\Debug\TakimOlusturma.Form1.resources
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\obj\Debug\TakimOlusturma.Properties.Resources.resources
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\obj\Debug\TakimOlusturma.csproj.GenerateResource.cache
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\obj\Debug\TakimOlusturma.csproj.CoreCompileInputs.cache
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\obj\Debug\TakimOlusturma.exe
+C:\Users\Gonca\Desktop\projects\c_sharp\winform\TakimOlusturma\TakimOlusturma\obj\Debug\TakimOlusturma.pdb
